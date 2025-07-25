@@ -2,7 +2,7 @@ from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
 from quick.serializers import UserSerializer, GroupSerializer, PostSerializer
-from models import Post
+from quick.models import Post
 from serializers import PostSerializer
 
 
