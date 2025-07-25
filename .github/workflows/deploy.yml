@@ -21,6 +21,7 @@ jobs:
       - name: 의존성 설치
         run: |
           pip install --upgrade pip
+          cd drf_ci-cd
           pip install -r requirements.txt
 
       - name: PEM 키 파일 설정
