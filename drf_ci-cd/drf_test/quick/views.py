@@ -3,7 +3,6 @@ from rest_framework import viewsets
 from rest_framework import permissions
 from quick.serializers import UserSerializer, GroupSerializer, PostSerializer
 from quick.models import Post
-from serializers import PostSerializer
 
 
 # Create your views here.
